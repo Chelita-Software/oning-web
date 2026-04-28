@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-primary {
+  background-image: radial-gradient(
+    120% 100% at 30% 20%,
+    #e85b5b 0%,
+    #e32b3c 55%,
+    #d32737 100%
+  );
+  color: #fff;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.96);
+  box-shadow: 0 10px 28px -10px rgba(227, 43, 60, 0.55);
+}
+
+.nav-link {
+  color: #5d606a;
+}
+
+.nav-link:hover {
+  color: #e32b3c;
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-icon {
+  transition: transform 0.2s ease;
+}
