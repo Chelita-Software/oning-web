@@ -1,3 +1,5 @@
+"use client";
+
 export default function FinalCTA() {
   return (
     <section id="cta" className="py-16 lg:py-24">
@@ -13,12 +15,12 @@ export default function FinalCTA() {
               menos de 15 días.
             </p>
             <div className="mt-7 flex flex-col sm:flex-row gap-3">
-              <a
-                href="#"
+              <button
+                onClick={() => window.dispatchEvent(new Event("open-demo-modal"))}
                 className="inline-flex justify-center items-center bg-white text-oning-700 font-semibold px-6 py-3.5 rounded-xl hover:bg-white/95"
               >
                 Solicitar demo
-              </a>
+              </button>
             </div>
           </div>
         </div>

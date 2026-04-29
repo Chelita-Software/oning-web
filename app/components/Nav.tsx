@@ -39,12 +39,12 @@ export default function Nav() {
             >
               Iniciar sesión
             </a>
-            <a
-              href="#cta"
+            <button
+              onClick={() => window.dispatchEvent(new Event("open-demo-modal"))}
               className="btn-primary text-sm font-semibold px-5 py-2.5 rounded-xl"
             >
               Solicitar demo
-            </a>
+            </button>
           </div>
 
           <button
@@ -77,13 +77,15 @@ export default function Nav() {
                   {l.label}
                 </a>
               ))}
-              <a
-                href="#cta"
+              <button
                 className="mt-2 btn-primary text-center text-sm font-semibold px-5 py-3 rounded-xl"
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  setOpen(false);
+                  window.dispatchEvent(new Event("open-demo-modal"));
+                }}
               >
                 Solicitar demo
-              </a>
+              </button>
             </div>
           </div>
         )}
