@@ -20,7 +20,7 @@ const cols = [
   {
     title: "Empresa",
     items: [
-      { href: "#", label: "Sobre Arven Systems" },
+      { href: "#", label: "Sobre Oning" },
       { href: "#", label: "Blog" },
       { href: "#", label: "Contacto" },
       { href: "#", label: "Aviso de privacidad" },
@@ -41,12 +41,7 @@ export default function Footer() {
               <span className="font-bold text-lg">Oning</span>
             </div>
             <p className="mt-3 text-sm text-white/70">
-              Onboarding financiero sin código. Por Arven Systems.
-            </p>
-            <p className="mt-4 text-xs text-white/50">
-              +52-55-6606-9659
-              <br />
-              contacto@arvensystems.mx
+              Onboarding financiero sin código.
             </p>
           </div>
 
@@ -66,7 +61,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-white/50">
-          <p>© 2026 Arven Systems · Todos los derechos reservados.</p>
+          <p>© 2026 Oning · Todos los derechos reservados.</p>
           <p>Hecho en México</p>
         </div>
       </div>

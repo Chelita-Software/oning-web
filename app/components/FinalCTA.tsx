@@ -19,12 +19,6 @@ export default function FinalCTA() {
               >
                 Solicitar demo
               </a>
-              <a
-                href="mailto:contacto@arvensystems.mx"
-                className="inline-flex justify-center items-center border border-white/40 text-white font-semibold px-6 py-3.5 rounded-xl hover:bg-white/10"
-              >
-                contacto@arvensystems.mx
-              </a>
             </div>
           </div>
         </div>

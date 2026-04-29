@@ -40,19 +40,13 @@ export default function UseCases() {
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {cases.map((c) => (
-            <a
+            <div
               key={c.title}
-              href="#"
-              className="group rounded-xl2 border border-ink-200 p-6 hover:border-oning-500 transition"
+              className="rounded-xl2 border border-ink-200 p-6"
             >
-              <h3 className="font-semibold text-lg group-hover:text-oning-600">
-                {c.title}
-              </h3>
+              <h3 className="font-semibold text-lg">{c.title}</h3>
               <p className="mt-2 text-sm text-ink-700">{c.body}</p>
-              <span className="mt-4 inline-flex items-center text-sm font-semibold text-oning-600">
-                Ver caso →
-              </span>
-            </a>
+            </div>
           ))}
         </div>
       </div>

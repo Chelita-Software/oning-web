@@ -16,7 +16,7 @@ export default function CustomerSuccess() {
             </h2>
             <p className="mt-4 text-white/70 text-lg">
               Llevamos 5 años optimizando procesos de onboarding financiero con
-              marcas como Getnet, Microformas y Kapital Bank.
+              las principales instituciones financieras de LatAm.
             </p>
 
             <blockquote className="mt-8 border-l-2 border-oning-500 pl-5 max-w-lg">
